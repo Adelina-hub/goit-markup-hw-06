@@ -119,10 +119,10 @@ body {
     justify-content: space-between;
 
 }
-.header-item {
+/* .header-item {
     font-size: 36px;
     font-weight: 700;
-}
+} */
 
 .header-link:hover {
     color:#404bbf;
@@ -130,16 +130,16 @@ body {
 .header-link:focus {
     color:#404bbf;
 }
-.contact-info {
+/* .contact-info {
 display: flex;
 flex-direction: column;
 gap:24px;
-} 
+}  */
 
 .header-link {
         color:#2E2F42;
         font-size: 16px;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
         padding: 0;

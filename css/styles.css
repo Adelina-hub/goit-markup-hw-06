@@ -1078,7 +1078,7 @@ padding: 0 16px;
     color: #404bbf;
 
 }
-.info-item {
+.info-item, .contact-info {
     display: block;
 }
 .hero-section {

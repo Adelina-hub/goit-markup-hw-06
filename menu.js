@@ -1,8 +1,8 @@
 (() => {
     const refs = {
         openModalBtn: document.querySelector(".hamburger-logo"),
-        closeModalBtn: document.querySelector("btn-close-menu"),
-        Modal: document.querySelector(".mobile-menu-container"),
+        closeModalBtn: document.querySelector(".hamburger-logo-close"),
+        Modal: document.querySelector(".mobile-menu"),
     };
     refs.openModalBtn.addEventListener('click', toggleModal);
     refs.closeModalBtn.addEventListener('click', toggleModal);

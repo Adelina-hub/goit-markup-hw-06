@@ -1,15 +1,15 @@
-(() => {
-    const refs = {
-        openModalBtn: document.querySelector(".hamburger-logo"),
-        closeModalBtn: document.querySelector(".hamburger-logo-close"),
-        Modal: document.querySelector(".mobile-menu"),
-    };
-    refs.openModalBtn.addEventListener('click', toggleModal);
-    refs.closeModalBtn.addEventListener('click', toggleModal);
-    function toggleModal() {
-        backdrop.classList.toggle("is-open");
-    }
-})();
+// (() => {
+//     const refs = {
+//         openModalBtn: document.querySelector(".hamburger-logo"),
+//         closeModalBtn: document.querySelector(".hamburger-logo-close"),
+//         Modal: document.querySelector(".mobile-menu"),
+//     };
+//     refs.openModalBtn.addEventListener('click', toggleModal);
+//     refs.closeModalBtn.addEventListener('click', toggleModal);
+//     function toggleModal() {
+//         backdrop.classList.toggle("is-open");
+//     }
+// })();
 
 
 

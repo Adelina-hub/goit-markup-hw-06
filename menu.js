@@ -1,30 +1,15 @@
-// (() => {
-//     const refs = {
-//         openModalBtn: document.querySelector(".hamburger-logo"),
-//         closeModalBtn: document.querySelector(".hamburger-logo-close"),
-//         Modal: document.querySelector(".mobile-menu"),
-//     };
-//     refs.openModalBtn.addEventListener('click', toggleModal);
-//     refs.closeModalBtn.addEventListener('click', toggleModal);
-//     function toggleModal() {
-//         backdrop.classList.toggle("is-open");
-//     }
-// })();
+const modal = document.querySelector(".mobile-menu-container");
+const modalMenu = document.querySelector(".mobile-menu");
+const btnCloseModal = document.querySelector(".hamburger-logo-close");
+const btnOpenModal = document.querySelector(".hamburger-logo");
+console.log(btnOpenModal);
 
+btnOpenModal.addEventListener("click", function () {
+  modalMenu.classList.remove("hidden");
+  modal.classList.remove("hidden");
+});
 
-
-// const button = document.querySelector(".hamburger-logo");
-// const backdrop = document.querySelector(".mobile-menu-container");
-// button.addEventListener("click", toggleModal);
-// backdrop.addEventListener("click", (e) => {
-//   const target = e.target.closest(".btn-close-menu");
-//   if (!target) {
-//     return;
-//   }
-//   toggleModal();
-// });
-// function toggleModal() {
-//   backdrop.classList.toggle("is-open");
-// }
-
-
+btnCloseModal.addEventListener("click", function () {
+  modalMenu.classList.add("hidden");
+  modal.classList.add("hidden");
+});
